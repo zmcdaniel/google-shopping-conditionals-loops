@@ -43,4 +43,8 @@ for (var i = 0; i < productCount; i++) {
  	}
 }
 
+// 6.) Print all the products with their brand, price, and an image link
+console.log('\n5. All products: ');
+
+
 //console.log(data.items);
