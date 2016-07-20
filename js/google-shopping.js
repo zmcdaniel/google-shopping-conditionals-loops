@@ -18,12 +18,20 @@ var data = require('../products.json');
 // 	}
 // }
 
-// 3.) Print the title all items with more than one image link.
+// // 3.) Print the title all items with more than one image link.
 
-for (var i = 0; i < data.currentItemCount; i++) {
-	if (data.items[i].product.images.length > 1) {
-		console.log(data.items[i].product.title);
-	}
-}
+// for (var i = 0; i < data.currentItemCount; i++) {
+// 	if (data.items[i].product.images.length > 1) {
+// 		console.log(data.items[i].product.title);
+// 	}
+// }
+
+// // 4.) Print all "Canon" products in the items (careful with case sensitivity).
+
+// for (var i = 0; i < data.currentItemCount; i++) {
+// 	if (data.items[i].product.brand === 'Canon') {
+// 		console.log(data.items[i].product.title);
+// 	}
+// }
 
 //console.log(data.items);
